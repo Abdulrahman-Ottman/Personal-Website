@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My profile</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" >
+</head>
+
+<body>
+  <!-- Start settings box -->
+  <div class="setting-box">
+    <div class="toggle-setting"><i class="fa fa-gear"></i></div>
+    <div class="setting-container">
+      <div class="option-box">
+        <h4  class="h4">Colors</h4>
+        <ul class="colors-list">
+          <li class="active" data-color="#03A9F4"></li>
+          <li data-color="#FF9800"></li>
+          <li data-color="#E91E63"></li>
+          <li data-color="#4356c3"></li>
+          <li data-color="#0f9614"></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <h4>Random Backgrounds</h4>
+        <div class="random-backgrounds">
+        <span class="Yes active">Yes</span>
+        <span class="No">No</span>
+        </div>
+      </div>
+      <div class="option-box">
+        <h4>Show Bullet</h4>
+        <div class="bullets-option">
+        <span class="Yes active" data-display="Show">Yes</span>
+        <span class="No" data-display="hide">No</span>
+        </div>
+      </div>
+      <button class="reset-options">Reset Options</button>
+    </div>
+  </div>
+  <!-- End settings box -->
+
+  <!-- start nav Bullets -->
+  <div class="nav-bullets">
+    
+    <div class="bullet" data-section=".about-me">
+      <div class="tooltip">About Me</div>
+    </div>
+    <div class="bullet" data-section=".skills">
+      <div class="tooltip">Skills</div>
+    </div>
+    <div class="bullet" data-section=".certificate">
+      <div class="tooltip">certificates</div>
+    </div>
+    <div class="bullet" data-section=".projects">
+      <div class="tooltip">projects</div>
+    </div>
+    <div class="bullet" data-section=".contact">
+      <div class="tooltip">Contact</div>
+    </div>
+
+  </div>
+  <!-- end nav Bullets -->
+  <!-- Start landing page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="header-area">
+        <div class="logo">My profile</div>
+        <div class="links-container">
+          <ul class="links">
+            <li><a href="#" data-section=".about-me" class="active">About me</a></li>
+            <li><a href="#" data-section=".skills">Skills</a></li>
+            <li><a href="#" data-section=".certificate">Certificates</a></li>
+            <li><a href="#" data-section=".projects">Projects</a></li>
+            <li><a href="#" data-section=".contact">Contact</a></li>
+          </ul>
+          <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+      </div>
+      </div>
+      <div class="introduction-text">
+        <h1>Wellcome To<span> My Profile</span></h1>
+        <p>This site contains a summary of my skills and projects in the field of web development </p>
+      </div>
+    </div>
+  <!-- end landing page -->
+
+  <!-- start About me  -->
+<div class="container">
+      <div class="about-me">
+        <div class="info-box">
+          <h2>About Me</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestiae tempore rerum maxime enim beatae labore cumque vitae! Quos suscipit molestias, repudiandae quis consequuntur libero sed voluptates! Quo, exercitationem? Incidunt?</p>
+        </div>
+        <div class="image-box">
+          <img src="imgs/about-me-photo.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  <!-- end About me  -->
+
+  <!-- start my Skills -->
+  <div class="skills">
+        <div class="container">
+        <h2>My Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">Laravel</div>
+          <div class="skill-level">
+            <span class="Laravel" data-progress="20%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Php</div>
+          <div class="skill-level">
+            <span class="Php" data-progress="65%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name ">MySQl</div>
+          <div class="skill-level">
+            <span class="MYSQL" data-progress="55%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name ">OOP</div>
+          <div class="skill-level">
+            <span class="OOP"  data-progress="85%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name ">Git&GitHub</div>
+          <div class="skill-level">
+            <span class="Git" data-progress="30%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name ">Html</div>
+          <div class="skill-level">
+            <span class="Html" data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Css</div>
+          <div class="skill-level">
+            <span class="Css" data-progress="75%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name ">JavaScribt</div>
+          <div class="skill-level">
+            <span class="Js" data-progress="45%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name ">C++</div>
+          <div class="skill-level">
+            <span class="cpp" data-progress="35%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- end my Skills -->
+  <!-- start certificates  -->
+  <div class="certificate">
+    <div class="container">
+      <h2 >Certificates</h2>
+      <div class="imges-box">
+        <img src="imgs/JavaScript Intermediate_certificate.jpg" alt="JavaScribt Intermediate certificate">
+        <img src="imgs/Introduction to JavaScript_certificate.jpg" alt="JavaScribt Introduction Certificate">
+        <img src="imgs/Introduction to C++_certificate.jpg" alt="C++ Introduction Certificate ">
+      </div>
+    </div>
+  </div>
+  <!-- end certificates  -->
+  <!-- start projects page -->
+  <div class="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects-content">
+
+        <div class="year">2023</div>
+
+        <div class="left">
+          <div class="content">
+            <h3>Testing Heading</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit suscipit ullam ipsum exercitationem quam, quod asperiores minima neque consequuntur in minus temporibus facilis inventore id laboriosam tempore rerum modi eos.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right">
+          <div class="content">
+            <h3>Testing Heading</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit suscipit ullam ipsum exercitationem quam, quod asperiores minima neque consequuntur in minus temporibus facilis inventore id laboriosam tempore rerum modi eos.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="year">2022</div>
+        <div class="left">
+          <div class="content">
+            <h3>Testing Heading</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit suscipit ullam ipsum exercitationem quam, quod asperiores minima neque consequuntur in minus temporibus facilis inventore id laboriosam tempore rerum modi eos.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right">
+          <div class="content">
+            <h3>Testing Heading</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit suscipit ullam ipsum exercitationem quam, quod asperiores minima neque consequuntur in minus temporibus facilis inventore id laboriosam tempore rerum modi eos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end projects page -->
+
+  <!-- start contact us -->
+  <div class="contact">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="">
+        <div class="left">
+          <input type="text" placeholder="your Name" name="username">
+          <input type="text" placeholder="your Phone Number" name="Phone">
+          <input type="email" placeholder="your Email" name="email">
+          <input type="text" placeholder="subject" name="subject">
+        </div>
+        <div class="right">
+          <textarea name="message" placeholder="Your message"></textarea>
+          <input type="submit" value="Send">
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- End contact us -->
+  <script src="js/master.js"></script>
+</body>
+</html>

@@ -100,7 +100,7 @@ function radomizeImges(){
     backgroundIntervale = setInterval(()=>{
     let randomnumber = Math.floor(Math.random() * imgsarray.length);
     landingpage.style.backgroundImage = 'url("imgs/'+ imgsarray[randomnumber]+'")';
-},10000)
+},15000)
     }
     else{
         clearInterval(backgroundIntervale)
